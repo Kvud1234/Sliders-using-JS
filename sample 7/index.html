@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CO-OP MEDICAL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Slider -->
+    <div class="slider">
+        <!-- Radio Controllers -->
+        <input type="radio" name="sld" id="sld1">
+        <input type="radio" name="sld" id="sld2">
+        <input type="radio" name="sld" id="sld3">
+
+        <!-- Slides -->
+        <div class="slides">
+            <!-- Slide 01 -->
+            <div class="slide curr">
+                <img src="slide_img1.jpg" alt="">
+                <div class="desc">
+                    <h2>Welcome to<br><span class="spcial">CO-OP </span>Hospital</h2>
+                    <p>We offer a comprehensive range of medical services to meet your needs.
+                        we combine cutting-edge technology with personalized care to serve our community. Our commitment to excellence in healthcare is reflected in every aspect of our service.
+                    </p>
+                    <a href="#">View More</a>
+                </div>
+            </div>
+            <!-- Slide 02 -->
+            <div class="slide">
+                <img src="slide_img2.jpg" alt="">
+                <div class="desc">
+                    <h2>Meet Our Dedicated Professionals</h2>
+                    <p>Our expert physicians, nurses, and staff are dedicated to providing you with the highest standard of care. Explore our services, find information about our specialists, and access our patient portal for your health records and appointments. </p>
+                    <a href="#">View More</a>
+                </div>
+            </div>
+            <!-- Slide 03 -->
+            <div class="slide">
+                <img src="slide_img3.jpg" alt="">
+                <div class="desc">
+                    <h2>Walk in or <br>schedule online</h2>
+                    <p>Getting an appointment at Cleveland Clinic is easy. Schedule using any of these convenient options.Or 
+                        Video Chat with a Provider Available for urgent care or medical evaluations for every day illnesses and injuries.
+                    </p>
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </div>
+        <!-- Arrow Navigation -->
+        <a href="#" class="arrow left"><i class="fas fa-arrow-circle-left"></i></a>
+        <a href="#" class="arrow right"><i class="fas fa-arrow-circle-right"></i></a>
+        <!-- Radio Navigation -->
+        <div class="rad-nav">
+            <label for="sld1" class="rad-btn active"></label>
+            <label for="sld2" class="rad-btn"></label>
+            <label for="sld3" class="rad-btn"></label>
+        </div>
+    </div>
+    <!-- Scripts -->
+    <script src="index.js"></script>
+</body>
+</html>
